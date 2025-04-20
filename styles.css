@@ -133,7 +133,7 @@ h1 {
 h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-  color: #ffcc66;
+  color: #ffcc00;
 }
 
 h3 {
@@ -172,16 +172,17 @@ section {
 .mission,
 .contact,
 .tier {
-  padding: 1.5rem;
+  padding: 2.5rem;
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
+  border-radius: 14px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   color: white;
+  margin-bottom: 1rem;
 }
 
 .achievements {
   list-style: none;
-  margin-top: 1rem;
+  margin-top: 1.4rem;
 }
 
 .achievements li {
@@ -191,6 +192,16 @@ section {
 
 .mission-details {
   margin-top: 1rem;
+}
+
+.mission_images {
+
+  height: 250px;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+
+  border: solid 5px black;
 }
 
 .date {
