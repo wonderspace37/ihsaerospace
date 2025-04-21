@@ -256,6 +256,16 @@ footer {
   margin-top: 3rem;
   position: relative;
   z-index: 1;
+
+}
+
+.prom_paras {
+  flex: auto;
+  padding: 0.8rem 2rem;
+}
+
+.blog_break {
+  flex: auto
 }
 
 @media (max-width: 768px) {
@@ -293,6 +303,6 @@ footer {
 
   nav a {
     min-width: unset;
-    padding: 0.5rem 1rem;
+    padding: 4rem 1rem;
   }
 }
