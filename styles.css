@@ -170,9 +170,17 @@ section {
 .sub-team,
 .competition,
 .mission,
-.contact,
-.tier {
+.contact{
   padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.tier {
+  padding: 2.5rem 0rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 14px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -261,7 +269,8 @@ footer {
 
 .prom_paras {
   flex: auto;
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 0rem;
+  font-size: 1.2rem;
 }
 
 .blog_break {
