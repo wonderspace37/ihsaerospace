@@ -5,5 +5,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     toggleButton.addEventListener('click', () => {
         navLinks.classList.toggle('active');
-    });
+    });s
 });
